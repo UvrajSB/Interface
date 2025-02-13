@@ -2,7 +2,26 @@
   <img src="https://github.com/user-attachments/assets/3d5e525a-538e-4b55-8481-575d9485e5af" width="250" />
 </p>
 
-# Steps to Run
+# Interface  
+
+## Overview  
+**Interface** is a privacy-preserving tool for interacting with cloud-hosted Large Language Models (LLMs). It ensures user data remains protected by leveraging an on-device Small Language Model (SLM) for initial queries.  
+
+If the SLM cannot generate a satisfactory response, the query is automatically routed to a cloud-hosted LLM. However, before sending the query, all Personally Identifiable Information (PII) is replaced with synthetic data to maintain privacy. Once the response is received, the tool reverses this process, restoring the original information seamlessly.  
+
+## Key Features  
+- **On-Device Processing:** Provides a local SLM for handling queries without external data exposure.  
+- **Intelligent Query Routing:** Automatically forwards complex queries to cloud LLMs only when necessary.  
+- **Privacy Protection:** Anonymizes sensitive data before transmission and restores it upon response.  
+- **Seamless Integration:** Ensures a smooth user experience without compromising security.  
+
+## Why Use Interface?  
+- Protects user privacy while leveraging powerful cloud-based AI models.  
+- Reduces reliance on cloud resources, minimizing costs and latency.  
+- Ensures sensitive data never leaves the local environment in an identifiable form.  
+
+## Getting Started  
+Follow the [installation instructions](#installation) to set up Interface on your system.  
 
 1. **Install Requirements**  
    - Use the following command:  
