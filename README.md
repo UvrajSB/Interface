@@ -29,3 +29,8 @@
      python main.py
      ```
 
+5. **Start Chatting**
+   
+   <br> <img width="1000" alt="image" src="https://github.com/user-attachments/assets/d53d40bf-9375-4e30-b9d8-e59164a8ad46" />
+
+
