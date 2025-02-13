@@ -8,7 +8,7 @@ page = """
 # Interface
 
 **Select Mode**{: .color-primary}
-<|{value}|selector|lov=Cloud LLM; Secure Cloud LLM; On-Device LLM; Auto Prompt Routing|>
+<|{current_mode}|selector|lov=Cloud LLM;Secure Cloud LLM;On-Device LLM;Auto Prompt Routing|>
 <|Reset Conversation|button|class_name=fullwidth align-item-bottom plain|id=reset_app_button|on_action=reset_chat|>
 |>
 
@@ -24,3 +24,5 @@ page = """
 
 |>
 """
+
+

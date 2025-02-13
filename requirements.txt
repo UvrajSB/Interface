@@ -2,3 +2,6 @@ taipy
 openai
 ollama
 aisuite
+langchain_ollama
+google-genai
+bs4
