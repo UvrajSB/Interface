@@ -42,11 +42,17 @@ Follow the [installation instructions](#installation) to set up Interface on you
      ollama pull deepseek-r1:1.5b
      ```
 
-4. **Run the Project**  
+4. **Install en_core_web_lg which is a pretrained english language model for tasks like semantic understanding and text classification**  
+   - Run the following command:  
+     ```sh
+     python -m spacy download en_core_web_lg
+     ```
+
+5. **Run the Project**  
    - Start the project using:  
      ```sh
      python main.py
-     ```
+     ``` 
 
 5. **Start Chatting**
    

@@ -5,3 +5,5 @@ aisuite
 langchain_ollama
 google-genai
 bs4
+presidio_analyzer
+presidio_anonymizer
