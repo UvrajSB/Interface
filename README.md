@@ -59,3 +59,11 @@ Follow the [installation instructions](#installation) to set up Interface on you
    <br> <img width="1000" alt="image" src="https://github.com/user-attachments/assets/d53d40bf-9375-4e30-b9d8-e59164a8ad46" />
 
 
+## Feature Demo
+### Secure LLM feature (Anonymisation)
+We are using [Microsoft's Presidio](https://microsoft.github.io/presidio/) for data anonymisation in the prompts. Here is an example.
+<br><img width="1000" alt="Screenshot 2025-03-04 at 1 47 00 AM" src="https://github.com/user-attachments/assets/c314b51a-2956-4479-9cc9-8f6739bb8487" />
+<br><img width="1000" alt="Anonymised Prompt (1)" src="https://github.com/user-attachments/assets/054a3bd2-b774-4510-8d07-4653a506886a"/>
+
+
+
