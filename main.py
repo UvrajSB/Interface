@@ -21,7 +21,7 @@ logger = logging.getLogger(__name__)
 
 
 client = None
-context = "The following is a conversation with an AI assistant. The assistant is helpful, creative, clever, and very friendly.\n\nHuman: Hello, who are you?\nAI: I am an AI created by OpenAI. How can I help you today? "
+context = "The following is a conversation with an AI assistant. The assistant is helpful, creative, clever, and very friendly."
 conversation = {
     "Conversation": []
 }
@@ -56,9 +56,8 @@ def update_context(state: State) -> None:
         case "Cloud LLM":
             answer = llm.request(state, state.context)
         case "Secure Cloud LLM":
-            answer = llm.request(state, state.context)
+            answer = llm.anonymised_request(state, state.context)
         case "On-Device LLM":
-            logger.info("Reached inside On-Device LLM")
             logger.info(type(slm_client))
             answer = slm.request(state, state.context)
         case "Auto Prompt Routing":
